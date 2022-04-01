@@ -1,0 +1,18 @@
+npm init -y
+
+cria um arquivo server.js no raiz e ponha um console.log qualger
+node .\server.js == o resultado aparece no terminal e não no browser
+
+npm i http express debug 
+http criar o servidor http
+express = framework para js que cria api, mvc etc
+ 
+node .\server.js ==> roda o arquivo em  .\server.js // Como o arquivo server.js que está rodando ele é que define as rotas do endpoint
+                                                    // por isso não precisa de um arquivo de configuração definindo a rota default        
+
+
+npm i nodemon --save-dev  => instala o nodemon que um pacote que reseta o servidor quando o arquivo é alterado
+
+npm i body-parser --save  ==> pacote para tratar o corpo da requisição como converter para json,limitar o tamanho da requisição , etc
+                              Tem também outros métodos para tratar a url, etc
+
